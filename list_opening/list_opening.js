@@ -7,7 +7,7 @@ $(document).ready(function() {
 
   //Sample JQuery code
   $.ajax({
-    url: 'http://app.rbox.com:8000/public_js_api/v1/openings',
+    url: 'https:/jsapi.recruiterbox.com/v1/openings',
     data: query_params,
     success: function(response) {
       $("#json-response").html(JSON.stringify(response));
