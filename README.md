@@ -6,6 +6,6 @@ Sample code to demo recruiterbox's jsapi usage. The examples show how to make ca
 
 One of the parameters for List opening query which is the 'team' parameter needs to be enclosed with additional double quotes if there are multiple words in the query. There is no change required for single word parameters. This is due to an issue with deserializations, it will be fixed soon.
 
-'''
+```
 var query_params = list_opening_query_builder.withTeam('"Enclosed with double quotes for multiple words"').buildParams();
-'''
+```
